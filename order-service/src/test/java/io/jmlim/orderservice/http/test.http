@@ -1,0 +1,16 @@
+POST http://127.0.0.1:8000/order-service/52f27522-c53c-4f2f-93b1-9cc519d9f2d2/orders
+Content-Type: application/json
+
+{
+  "productId": "CATALOG-002",
+  "qty": 5,
+  "unitPrice": 1000
+}
+
+###
+GET http://127.0.0.1:8000/order-service/52f27522-c53c-4f2f-93b1-9cc519d9f2d2/orders
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:8000/order-service/health_check
