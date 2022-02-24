@@ -1,4 +1,4 @@
-POST http://desktop-dgjb2o5:56996/users
+POST http://127.0.0.1:8000/user-service/users
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://desktop-dgjb2o5:56996/users
+POST http://127.0.0.1:8000/user-service/users
 Content-Type: application/json
 
 {
@@ -23,27 +23,25 @@ Content-Type: application/json
 
 
 ###
-GET http://127.0.0.1:8000/user-service/users/52f27522-c53c-4f2f-93b1-9cc519d9f2d2
+GET http://127.0.0.1:8000/user-service/users/7d53e1f1-70d4-4d63-b7c9-575cfb568409
 Content-Type: application/json
 
 
 ###
-POST http://127.0.0.1:8000/user-service/users
+POST http://127.0.0.1:8000/user-service/login
 Content-Type: application/json
 
 {
 "email" : "hackerljm@gmail.com",
-"name" : "Jeongmuk Lim",
-"pwd" : "test1234"
+"password" : "test1234"
 }
 
+
 ###
-POST http://127.0.0.1:8000/user-service/users
+POST http://127.0.0.1:8000/user-service/login
 Content-Type: application/json
 
 {
   "email" : "hackerljm@naver.com",
-  "name" : "Jeongmuk Lim naver",
-  "pwd" : "test1234"
+  "password" : "test1234"
 }
-
