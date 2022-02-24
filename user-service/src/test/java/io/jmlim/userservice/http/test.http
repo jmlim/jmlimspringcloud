@@ -45,3 +45,6 @@ Content-Type: application/json
   "email" : "hackerljm@naver.com",
   "password" : "test1234"
 }
+###
+GET http://127.0.0.1:8000/user-service/welcome
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2YTgwYzQ3NS05YTYwLTQwOWMtYWFkNC1hMTg5YWQ3OWZkYjAiLCJleHAiOjE2NDU3NjczOTB9.VrTWuub0PDgAkE1au_Jo2NBH6OI9KwGwKtxFId5u3jFHHgrAlNflh2Ee-hzUOihWamq4ygURjZrTJw0CS5gr9A
